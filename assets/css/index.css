@@ -1,0 +1,89 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+section {
+    padding: 0;
+    background-color: grey;
+    color: white;
+}
+#home-hero .form-header{
+    padding: 5rem 1rem;
+    background-blend-mode: darken;
+    text-align: center;
+}
+#home-hero .form-header h1{
+    font-size: xxx-large;
+}
+#home-hero .form-header h2{
+    font-size: x-large;
+}
+#home-hero .form-header p{
+    font-size: large;
+}
+#home-hero .container{
+    position: relative;
+    top: -5rem;
+}
+#home-hero .container {
+    max-width: 75rem;
+    margin: 0 1rem;
+    padding: 1rem 2rem 2rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,.5);
+}
+@media screen and (min-width: 75rem) {
+    #home-hero .container {
+        margin: 0 auto;
+    }
+}
+form{
+    color: black;
+}
+form .inline-form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+}
+form input, select{
+    margin: 0.5rem 0;
+    font-size: large;
+    border: none;
+}
+label{
+    font-size: large;
+}
+form input.form-control, form select.form-control{
+    display: block;
+    width: 100%;
+}
+.button{
+    margin: 1rem 1rem 0;
+}
+.button .btn{
+    width: 100%;
+    padding: 0.7rem 2.5rem;
+    margin: 0.3rem;
+    text-decoration: none;
+    text-align: center;
+    color: inherit;
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 0.2rem solid rgba(0, 0, 0, 0.2);
+    border-radius: 2rem;
+    font-weight: bold;
+    font-size: large;
+    display: inline-block;
+    transform: scale(1);
+    transition: .3s ease-in-out all;
+}
+.btn:hover{
+    transform: scale(0.95);
+    transition: .3s ease-in-out all;
+}
+footer .container{
+    padding: 1rem 0 0;
+    text-align: center;
+}
